@@ -10,14 +10,14 @@ export default function About() {
                     <p className="text-xl font-semibold">
                         Last Moment Help for <span className="underline underline-offset-4 decoration-blue-700">your EXAMS.</span>
                     </p>
-                    <p className="">
+                    <p>
                         We are a student-led community dedicated to helping you ace your exams,
-                        even if you haven't studied until the last moment. At PYQ,
+                        even if you haven not studied until the last moment. At PYQ,
                         we provide the essential resources you need when you need them the most.
                     </p>
 
                     <p className="text-xl font-semibold">
-                        What We Offer
+                        What We Offer.
                     </p>
 
                     <div className="space-y-2">

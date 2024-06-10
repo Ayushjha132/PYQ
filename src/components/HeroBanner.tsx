@@ -6,7 +6,7 @@ export default function HeroBanner() {
         <>
             <div className="flex flex-col space-y-10 items-center">
                 <p className="fixed left-0 top-0 flex justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-                    👨🏻‍🎓 Student's Community
+                    👨🏻‍🎓 Student&apos;s Community
                 </p>
                 <h1 className="text-[#2563eb] dark:text-blue-500 text-5xl font-semibold">Learn Fast, Score High</h1>
             </div>
