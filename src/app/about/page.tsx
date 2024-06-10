@@ -19,22 +19,23 @@ export default function About() {
                     <p className="text-xl font-semibold">
                         What We Offer
                     </p>
-                    <ul className="space-y-2">
-                        <li className="flex items-center"><FaAnchorCircleCheck className="text-2xl mr-2 p-1"/>
-                            <span className="text-lg text-[#2363ed] dark:text-blue-400">Last-Minute Short Notes:  </span> Quick, concise notes to help you grasp key concepts fast.</li>
-                        <li className="flex items-center"><FaAnchorCircleCheck className="text-2xl mr-2 p-1"/>
-                            <span className="text-lg text-[#2363ed] dark:text-blue-400">Video Lecture Help:  </span> Engaging and informative lectures to clarify difficult topics.</li>
-                        <li className="flex items-center"><FaAnchorCircleCheck className="text-2xl mr-2 p-1"/>
-                            <span className="text-lg text-[#2363ed] dark:text-blue-400">Previous Year Questions with Solutions: </span> Access past papers with detailed solutions.</li>
-                        <li className="flex items-center"><FaAnchorCircleCheck className="text-2xl mr-2 p-1"/>
-                            <span className="text-lg text-[#2363ed] dark:text-blue-400">Question Bank: </span> Extensive collection of questions for thorough practice.</li>
-                        <li className="flex items-center"><FaAnchorCircleCheck className="text-2xl mr-2 p-1 "/>
-                            <span className="text-lg text-[#2363ed] dark:text-blue-400">Sample Paper Collection:  </span> Practice with expertly crafted sample papers.</li>
-                        <li className="flex items-center"><FaAnchorCircleCheck className="text-2xl mr-2 p-1"/>
-                            <span className="text-lg text-[#2363ed] dark:text-blue-400"> Books: </span>Recommended textbooks and reference materials.</li>
-                        <li className="flex items-center"><FaAnchorCircleCheck className="text-2xl mr-2 p-1"/>
-                            <span className="text-xl text-[#2363ed] dark:text-blue-400">One-to-One Mentorship: </span> Personalized guidance and support from experienced mentors.</li>
-                    </ul>
+
+                    <div className="space-y-2">
+                        <p className="flex items-center"><FaAnchorCircleCheck className="text-2xl mr-2 p-1"/>
+                            <span className="text-lg text-[#2363ed] dark:text-blue-400">Last-Minute Short Notes:  </span> Quick, concise notes to help you grasp key concepts fast.</p>
+                        <p className="flex items-center"><FaAnchorCircleCheck className="text-2xl mr-2 p-1"/>
+                            <span className="text-lg text-[#2363ed] dark:text-blue-400">Video Lecture Help:  </span> Engaging and informative lectures to clarify difficult topics.</p>
+                        <p className="flex items-center"><FaAnchorCircleCheck className="text-2xl mr-2 p-1"/>
+                            <span className="text-lg text-[#2363ed] dark:text-blue-400">Previous Year Questions with Solutions: </span> Access past papers with detailed solutions.</p>
+                        <p className="flex items-center"><FaAnchorCircleCheck className="text-2xl mr-2 p-1"/>
+                            <span className="text-lg text-[#2363ed] dark:text-blue-400">Question Bank: </span> Extensive collection of questions for thorough practice.</p>
+                        <p className="flex items-center"><FaAnchorCircleCheck className="text-2xl mr-2 p-1 "/>
+                            <span className="text-lg text-[#2363ed] dark:text-blue-400">Sample Paper Collection:  </span> Practice with expertly crafted sample papers.</p>
+                        <p className="flex items-center"><FaAnchorCircleCheck className="text-2xl mr-2 p-1"/>
+                            <span className="text-lg text-[#2363ed] dark:text-blue-400"> Books: </span>Recommended textbooks and reference materials.</p>
+                        <p className="flex items-center"><FaAnchorCircleCheck className="text-2xl mr-2 p-1"/>
+                            <span className="text-xl text-[#2363ed] dark:text-blue-400">One-to-One Mentorship: </span> Personalized guidance and support from experienced mentors.</p>
+                    </div>
 
                     <p className="text-md font-mono">
                         Join our community and get the support you need to succeed. Together, we can conquer any exam challenge!

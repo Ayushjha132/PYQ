@@ -1,4 +1,3 @@
-"use client";
 import {TypewriterEffect} from "./ui/typewriter-effect";
 import Link from "next/link";
 
