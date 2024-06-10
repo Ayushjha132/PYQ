@@ -1,0 +1,50 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "cockroachdb"
+  url      = env("DATABASE_URL")
+}
+
+model AcademicPYQPapers {
+  id           Int            @id @default(sequence(maxValue: 2147483647))
+  degreeType   String
+  courseName   String
+  subjectName  String
+  paperYear    String
+  url          String?        @unique
+  alternateUrl String?        @unique
+  driveUrl     String?        @unique
+  createdAt    DateTime       @default(now())
+  examCategory ExamCategories @default(ACADEMICS)
+  institueName String
+}
+
+model AdminUser {
+  id       Int    @id @default(sequence())
+  email    String @unique
+  password String @unique
+}
+
+model ServiceNames {
+  id           Int      @id @default(sequence())
+  service_name Services
+}
+
+model Widget {
+  id String @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+}
+
+enum ExamCategories {
+  ACADEMICS
+  ENTRENCES_OR_JOBS
+}
+
+enum Services {
+  PYQ
+  SAMPLE_PAPER
+  QUESTION_BANK
+  SHORT_NOTES
+  BOOKS
+}
