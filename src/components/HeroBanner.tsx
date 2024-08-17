@@ -53,7 +53,7 @@ export function TypewriterEffectDemo() {
         <div className="flex flex-col items-center justify-center h-[12rem] space-y-12">
             <TypewriterEffect words={words}/>
             <div className="space-x-4 ">
-                <Link href="https://discord.gg/D6BYeEBy"
+                <Link href="https://discord.gg/tJTv9Kppqv"
                     className="px-4 py-3  bg-black text-white border rounded-lg">
                     Join Community
                 </Link>
